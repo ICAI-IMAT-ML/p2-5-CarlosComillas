@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 try:
     from src.Lab2_5_LogisticRegression_and_regularization import LogisticRegressor
 except ImportError:
-    from Lab2_5_LogisticRegression_and_regularization import LogisticRegressor
+    from src.Lab2_5_LogisticRegression_and_regularization import LogisticRegressor
 
 
 @pytest.fixture
